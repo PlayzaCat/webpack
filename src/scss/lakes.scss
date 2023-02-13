@@ -1,0 +1,45 @@
+$textColor: #1B1C21;
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT LakesLight';
+  src: url('../fonts/TTLakes-Light.eot'),
+      url('../fonts/TTLakes-Light.woff') format('woff'),
+      url('../fonts/TTLakes-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TT LakesBold';
+  src: url('../fonts/TTLakes-Bold.eot'),
+      url('../fonts/TTLakes-Bold.woff') format('woff'),
+      url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT LakesDemiBold';
+  src: url('../fonts/TTLakes-DemiBold.eot'),
+      url('../fonts/TTLakes-DemiBold.woff') format('woff'),
+      url('../fonts/TTLakes-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.eot'),
+      url('../fonts/TTLakes-Regular.woff') format('woff'),
+      url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

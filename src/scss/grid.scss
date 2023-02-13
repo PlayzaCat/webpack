@@ -1,0 +1,56 @@
+$textColor: #1b1c21;
+
+.grid_container {
+  display: inline-grid;
+
+  grid-template-columns: 1fr 1fr 1fr auto;
+  grid-template-rows: repeat(2fr 1fr auto);
+
+  gap: 5px;
+  align-items: center;
+
+  margin-left: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  background: linear-gradient(
+    to bottom,
+    transparent 7%,
+    #ffffff 7%,
+    #ffffff 100%
+  );
+
+  // grid-template-columns: 150px 20vw auto 1fr;
+
+  h3 {
+    color: #7e7e82;
+    font-family: 'TT LakesLight';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  color: $textColor;
+  font-family: 'TT LakesLight';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+// 1fr здесь используется, чтоб занять всё оставшееся доступное место.
+// auto Третья колонка ужимается под контент
+
+.el {
+  margin-left: 5px;
+}
+
+.el:nth-child(5n) {
+  grid-column: span 4;
+  border: 1px solid #eaeaea;
+  grid-row: auto;
+  background: rebeccapurple;
+}
+
+.linex {
+  visibility: hidden;
+}

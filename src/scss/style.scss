@@ -1,0 +1,48 @@
+@import '\header.scss';
+@import '\lakes.scss';
+@import '\menu.scss';
+@import '\mainpage.scss';
+@import '\sliderMy.scss';
+@import '\logoblock.scss';
+@import '\grid.scss';
+
+
+$bgColor: #F8F8F8;
+$textColor: #1B1C21;
+$textColorsize: 16px;
+
+
+html {
+  display: flex;
+  box-sizing: border-box;
+  line-height: 18px;
+  min-height: 2000px;
+}
+
+body {
+  margin: 0;
+  font-family: 'TT Lakes', 'TT LakesBold', 'TT LakesLight', 'TT LakesDemiBold', sans-serif;
+  background-color: #F8F8F8;
+  overflow-x: hidden;
+  min-height: 2000px;
+}
+
+*,*::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blur {
+  display: none;
+  position: absolute;
+  top: 0px;
+  background-color: $bgColor;
+  opacity: 0.95;
+  width: 100%;
+  height: 2000px;
+  z-index: 20;
+}

@@ -1,0 +1,20 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "preserve",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "proseWrap": "never",
+  "htmlWhitespaceSensitivity": "strict",
+  "jsxSingleQuote": true,
+  "max-len": [
+    "error",
+    140,
+    2
+  ],
+  "useTabs": false,
+  "endOfLine": "lf"
+}

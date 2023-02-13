@@ -1,0 +1,155 @@
+
+
+/* Плашка с логотипами */
+
+.logo-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 180px;
+  // max-width: 1120px;
+
+  margin: 20px;
+}
+
+
+/* Readmore */
+.readmore_logo-block {
+  display: flex;
+  margin: 24px;
+
+  p {
+    font-family:'TT LakesDemiBold';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap; 
+    margin-left: 10px;
+    }
+    
+  
+}
+
+
+
+
+.readmore__open_logo-block {
+display: flex;
+height: 24px;
+width: 132px;
+align-items: center;
+margin: 10px;
+padding: 0px;
+border: 0;
+background: transparent;
+flex-direction: row;
+}
+
+.readmore__open_logo-block img {
+transform: rotate(0deg);  
+}
+
+
+.readmore__close_logo-block {
+display: none;
+height: 24px;
+width: 132px;
+align-items: center;
+margin: 10px;
+padding: 0px;
+border: 0;
+background: transparent;
+flex-direction: row;
+}
+
+.readmore__close_logo-block img {
+transform: rotate(180deg); 
+}
+
+
+
+/* Кнопка readmore */
+.menu__container_logo-block {
+  display: none; 
+}
+
+.readmore__open_logo-block .readmore__close_logo-block {
+  display: flex;
+}
+
+.readmore__open_logo-block .readmore__open_logo-block {
+  display: none;
+}
+
+.readmore__open_logo-block .menu__container_logo-block {
+  display: block;
+} 
+
+.readmore_block_logo-block {
+  display: flex;
+}
+
+/* Плашка ремонт разл.видов.техники  */
+
+.repair-block {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 180px;
+}
+
+
+
+.repair-block_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+
+.repair-block_slide_prototype {
+  display: flex;
+  width: 224px; 
+  min-width: 224px !important ; 
+  height: 160px;
+  justify-content: space-between;
+  padding: 10px  !important ;
+
+
+  border: 1px solid #EAEAEA;
+  background: #FFFFFF; 
+  border-radius: 6px;
+
+
+  font-family:'TT LakesLight';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  
+  img {
+    position: relative; 
+    margin-top: 94px;
+    margin-bottom: 174px;
+  }
+}
+
+
+.repair-block_slide_prototype:hover,
+.repair-block_slide_prototype:focus {
+  border: 2px solid #B8FFEC;
+  background: #FFFFFF;
+  border-color: #B8FFEC;
+  display: flex;
+  border-width: 2px 0px 2px 2px;
+}
+
+.repair-block_slide_prototype:active {
+  background: #d5d5da; 
+}
+

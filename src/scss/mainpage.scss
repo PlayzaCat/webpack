@@ -1,0 +1,351 @@
+
+.main_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.slide_menu {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 28px;
+  overflow-y: scroll;
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    margin:0;
+    padding: 0px;
+    list-style: none;
+    flex-wrap: nowrap; 
+  }
+
+  a {
+    font-family:'TT LakesLight' ;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 6px;
+    white-space: nowrap;
+  }
+
+}
+
+.slide_menu::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+
+ /* Элементыы кнопочного меню, надо ли скрывать?*/
+.hide_button {
+  display: block;
+}
+
+.hide_button2 {
+  display: block;
+}
+
+.hide_button3 {
+  display: block;
+}
+
+.slide_button {
+  align-items: center;
+  background: transparent;
+  border: transparent;
+  border-radius: 6px;
+  height: 40px;
+  padding-inline: 10px;
+}
+
+.slide_button:hover {
+  border: 2px solid #B8FFEC;
+  background: #FFFFFF;
+  border-color: #B8FFEC;
+}
+
+.slide_button:active {
+  border: 2px solid #B8FFEC;
+  background: #FFFFFF;
+  border-color: #B8FFEC;
+}
+
+#mainpage_fade {
+display: block;
+position: fixed;
+right: 0;
+height: 40px;
+width: 24px;
+border-radius: 0px;
+background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+}
+
+
+ /* верхнее слово с плашкой*/
+
+
+.main_page_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  height: 40px;
+ 
+}
+
+.hide_button_group {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'TT Lakes' ;
+  font-style: bold;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.2
+
+}
+
+.main_page_highlight_group {
+
+  display: flex;
+  align-items: center;
+  font-family: 'TT LakesBold' ;
+  font-style: bold;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.2
+
+}
+
+#main_page_highlight {
+  height: 40px;
+  width: 4px;
+  position: relative;
+  background: #41F6D7;;
+  border-radius: 0% 30% 30% 0%;
+  margin-right: 12px;
+ 
+}
+
+
+ /* верхнее слово с плашкой - конец*/
+
+
+ .main_page_text_block {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  padding-top: 10px;
+ }
+
+ .main_page_article {
+  display: flex;
+  flex-direction: column; 
+  align-content: stretch;
+  padding: 0;
+  border: 0;
+  margin-top: 30px;
+  height: auto;
+  max-width: 500px;
+  width: auto;
+  
+ }
+
+ .main_page_article p {
+  font-family: 'TT Lakes' ;
+  font-style: normal;
+  font-size: 16px;
+ 
+  line-height: 18px;
+  text-align: left;
+  color: $textColor;
+  letter-spacing: 0.2px;
+
+}
+
+.main_page_text_group {
+  display: flex;
+  margin-left: 16px;
+  margin-right: 16px;
+  flex-direction: column;
+  min-width: 300px;
+  overflow-y: hidden;
+  height: 90px;
+  
+}
+
+.main_page_readmore {
+  display: flex;
+  width: 132px;
+  align-items: center;
+  margin: 10px;
+  padding: 0px;
+  border: 0;
+  background: transparent;
+  height: 40px;
+  overflow: hidden;
+}
+
+.readmore_icon {
+  display: flex;
+ height: 24px;
+ width: 24px;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.main_page_readmore p {
+font-family: 'TT LakesDemi';
+font-style: normal;
+font-size: 17px;
+line-height: 24px;
+text-align: left;
+white-space: nowrap;
+
+  
+}
+
+.main_page_img {
+  display: flex;
+  border-radius: 10px;
+  padding-left: 25px;
+  max-width: 700px;
+  padding: 0;
+  border: 0;
+
+  flex-grow: 2;
+}
+
+.main_page_img img {
+  width: 100%;
+  align-self: center;
+  max-width: 700px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+
+
+/* Readmore */
+
+.main_page_readmore__open {
+display: flex;
+height: 24px;
+width: 132px;
+align-items: center;
+margin: 10px;
+padding: 0px;
+border: 0;
+background: transparent;
+flex-direction: row;
+}
+
+.main_page_readmore__open img {
+transform: rotate(0deg);  
+margin-right: 5px;
+}
+
+
+.main_page_readmore__close {
+display: none;
+height: 24px;
+width: 132px;
+align-items: center;
+margin: 10px;
+padding: 0px;
+border: 0;
+background: transparent;
+flex-direction: row;
+}
+
+.main_page_readmore__close img {
+transform: rotate(180deg); 
+}
+
+
+/* Кнопка readmore */
+.menu__container {
+  display: none; 
+}
+
+.main_page_readmore__open .main_page_readmore__close {
+  display: flex;
+}
+
+.main_page_readmore__open .main_page_readmore__open {
+  display: none;
+}
+
+.main_page_readmore__open .menu__container {
+  display: block;
+} 
+
+.main_page_readmore_block {
+  display: flex;
+}
+
+
+.readmore_icon {
+display: flex;
+height: 8px;
+width: 8px;
+padding: 5px;
+align-items: center;
+justify-content: center;
+
+}
+
+.price_text {
+  color: #7E7E82;
+  font-family:'TT LakesLight';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+
+  margin: 16px;
+}
+
+.price_text_offer {
+  display: inline-block;
+  vertical-align: middle;
+
+  h5 {
+    font-family:'TT LakesLight';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 25px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+  color: #7E7E82;
+  font-size: 14px;
+
+  border: 1px solid #D9FFF5;
+    border-width: 2px 0px 0px 0px;
+
+}
+
